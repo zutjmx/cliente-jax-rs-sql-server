@@ -1,5 +1,8 @@
 package org.zutjmx.cliente.jaxrs.models;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Curso {
     private Long id;
 
